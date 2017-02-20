@@ -24,7 +24,7 @@ h6 {
 	font-size: 0.65em;
 	letter-spacing: 0.18em;
 	line-height: 0.8em;
-
+  margin-top: 10px;
 }
 
 /* Copy Below Portion */
@@ -38,6 +38,7 @@ h6 {
 	flex-direction: row;
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .menulogo {
