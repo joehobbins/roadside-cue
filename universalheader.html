@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="js/jquery-3.1.1.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/header.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px" rel="stylesheet">
+	<title></title>
+</head>
+
+<body>
+
+<div class="menubar">
+  <div class="navtoggle">
+      <!-- This checkbox will give us the toggle behavior, it will be hidden, but functional -->
+      <input id="toggle" type="checkbox">
+
+      <!-- IMPORTANT: Any element that we want to modify when the checkbox state changes go here, being "sibling" of the checkbox element -->
+
+      <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
+      <label class="toggle-container" for="toggle">
+          <!-- If menu is open, it will be the "X" icon, otherwise just a clickable area behind the hamburger menu icon -->
+          <span class="button button-toggle"></span>
+      </label>
+
+      <!-- The nav menu -->
+      <nav class="nav">
+          <a rel="nofollow" rel="noreferrer"class="nav-item" href="menu.html">Menu</a>
+          <a rel="nofollow" rel="noreferrer"class="nav-item" href="">Order Now</a>
+          <a rel="nofollow" rel="noreferrer"class="nav-item" href="find.html">Find Us</a>
+          <a rel="nofollow" rel="noreferrer"class="nav-item" href="">Our Story</a>
+      </nav>
+  </div>
+  <div class="menulogo">
+    <a href="index.html"><img id="headerlogo" src="img/roadside_web_logo.png"></a>
+    <h6>SIMPLY HICKORY BARBECUE</h6>
+  </div>
+  <div class="orderflag">
+    <div class="orderflagbg">
+      <img src="img/order_icon.png">
+    </div>
+  </div>
+</div>
+
+<!-- Start of menu crawl
+<a href="menu.html"><img id="staticmenu" src="img/roadside_static_menu_crawl.png"></a>
+<!-- End of menu crawl -->

@@ -1,0 +1,590 @@
+* { margin: 0; padding: 0; } /* Check this */
+
+*:focus {
+    outline: 0;
+} /* Check this */
+
+
+/* *** Homepage Header *** */
+
+#headerleft {
+	position: absolute;
+	left: 30px;
+	top: 56px;
+}
+
+#headerleft img {
+	width: 100%;
+}
+
+#headerlogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 240px;
+	position: relative;
+	padding-top: 20px;
+}
+
+#headercenter h6 {
+	text-align: center;
+	color: #808589;
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	font-size: 0.65em;
+	letter-spacing: 0.18em;
+	line-height: 1.8em;
+	top: 10px;
+
+}
+
+#headerright {
+	position: absolute;
+	right: 0px;
+	top: 41px;
+}
+
+#orderflag {
+	position: relative;
+	background-color: #C74734;
+	width: 120px;
+	height: 60px;
+}
+
+#orderflag:hover {
+	background-color: #C28642;
+}
+
+#orderflag img {
+	width: 42%;
+	position: absolute;
+	left: 34px;
+	top: 6px;
+}
+
+/* *** Universal Footer *** */
+
+#footercontainer {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding-top: 60px;
+}
+
+#footertext {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 56%;
+}
+
+#footerhours, #footerlocation {
+	width: 40%;
+}
+
+#footerhours {
+	float: left;
+}
+
+#footerlocation {
+	float: right;
+}
+
+#footersocial {
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 140px;
+	padding-bottom: 60px;
+	width: 30%;
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+#footersocial img {
+	display: inline;
+	height: 40px;
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: .9em;
+	letter-spacing: 0.13em;
+	line-height: 1.4em;
+}
+
+#footertext p {
+	line-height: 1.8em;
+	text-align: center;
+}
+
+/* *** Homepage *** */
+
+/* Menu Scroll */
+#nav_menu img {
+	width: 60px;
+	margin-right: 20px;
+}
+
+#staticmenu {
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-top: 60px;
+}
+
+/* Find Section */
+#find {
+	display: block;
+	position: relative;
+	padding-top: 50px;
+	width: 100%;
+}
+
+#findmap {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+#findsign {
+	position: relative;
+	float: right;
+	width: 50%;
+}
+
+#findbox {
+	background-color: #000;
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	margin: 12% 0 0 -8%;
+	top: 100%;
+	left: 50%;
+}
+
+#findbox:hover {
+	background-color: #C28642;
+}
+
+#findboxtext {
+	position: relative;
+	display: inline;
+	top: 10px;
+}
+
+h1 {
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	letter-spacing: 0.13em;
+	line-height: 1.4em;
+}
+
+/* Mission Section */
+#missioncontainer {
+	display: block;
+	position: relative;
+}
+
+#missionbackground {
+	display: block;
+	position: relative;
+}
+
+#missionbackground img {
+	width: 100%;
+}
+
+#missioncontentframe {
+	position: absolute;
+  	transform: translateY(-150%);
+}
+
+#missiontext {
+	position: relative;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h5 {
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	letter-spacing: 0.13em;
+	line-height: 1.4em;
+}
+
+#missionbuttons {
+	position: relative;
+	width: 56%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	height: 50px;
+}
+
+#ordernowbutton, #learnmorebutton {
+	position: relative;
+	background-color: #C74734;
+	width: 40%;
+	height: 100%;
+}
+
+#ordernowbutton {
+	float: left;
+}
+
+#learnmorebutton {
+	float: right;
+}
+
+#ordernowbutton:hover, #learnmorebutton:hover {
+	background-color: #C28642;
+}
+
+#ordernowbuttontext, #learnmorebuttontext {
+	margin-top: 14px;
+}
+
+@media only screen and (max-width: 850px) {
+	#missioncontentframe {transform: translateY(-145%);}
+	#missiontext h5 {font-size: 1em;}
+	#footertext p {font-size: .8em;}
+}
+
+@media only screen and (max-width: 740px) {
+	#missionbuttons {height: 42px;}
+	#findbox {left: 48%;}
+	#footertext p {font-size: .7em;}
+	#footersocial {padding-top: 100px;}
+	#ordernowbuttontext, #learnmorebuttontext {margin-top: 12px;}
+}
+
+@media only screen and (max-width: 680px) {
+	#missioncontentframe {transform: translateY(-125%);}
+	#findbox {left: 46%;}
+	#headerlogo {width: 160px;}
+	#headerleft img {width: 30%;}
+	#orderflag {width: 80px; height: 40px;}
+	#orderflag img {width: 30%; left: 28px; top: 9px;}
+	#footertext p {font-size: .65em;}
+}
+
+@media only screen and (max-width: 620px) {
+	#missioncontentframe {transform: translateY(-115%);}
+}
+
+@media only screen and (max-width: 580px) {
+	#missioncontentframe {transform: translateY(-115%);}
+	#missiontext h5 {font-size: .8em;}
+	h1 {font-size: .8em}
+	#missionbuttons {height: 34px;}
+	#findbox {width: 130px; height: 34px; left: 47%;}
+	#ordernowbuttontext, #learnmorebuttontext {margin-top: 9px;}
+	#findboxtext {top: 8px;}
+}
+
+@media only screen and (max-width: 479px) {
+	#missioncontentframe {transform: translateY(-110%);}
+	#footertext p {font-size: .6em;}
+	#footersocial img {height: 28px;}
+}
+
+@media only screen and (max-width: 419px) {
+	#missioncontentframe {transform: translateY(-110%);}
+	#missiontext h5 {font-size: .7em;}
+	#missionbuttons {height: 30px; margin-top: 20px;}
+	#findbox {width: 110px; height: 30px; left: 44%;}
+	h1 {font-size: .7em}
+	#ordernowbuttontext, #learnmorebuttontext {margin-top: 7px;}
+	#footertext p {font-size: .5em;}
+	#footerhours, #footerlocation {width: 45%;}
+	#footercontainer {padding-top: 30px;}
+}
+
+/* *** Menu Page *** */
+
+.menutitlebackground {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.menutitlebackground img {
+	display: flex;
+	width: 100%;
+}
+
+.menutitleheading {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.menucontainer {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.sectiontitle {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	height: 40px;
+	width: 160px;
+	background-color: #000;
+}
+
+.sectiontitle h1 {
+	text-align: center;
+}
+
+.sectionsubhead {
+	display: flex;
+	display: -webkit-flex;
+	margin-top: 20px;
+	width: 80%;
+}
+
+.sectionsubhead p {
+	text-align: center;
+}
+
+.menusection {
+	width: 80%;
+	margin-top: 30px;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.menuitem {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	width: 30%;
+	margin-bottom: 50px;
+}
+
+.menuitemtwocol {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-flow: column wrap;
+	flex-flow: column wrap;
+	-webkit-align-content: stretch;
+	align-content: stretch;
+	width: 30%;
+	margin-bottom: 50px;
+}
+
+.menuitemverticallist {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.itemtitle {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	-webkit-align-items: center;
+}
+
+h2 {
+	color: #C64734;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: 0.13em;
+	line-height: 1.4em;
+}
+
+.itemdescription {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	-webkit-align-items: center;
+	margin-top: 10px;
+}
+
+.itemdescription p {
+	text-align: center;
+}
+
+.menusectiontransition {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-webkit-align-items: center;
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+.menusectionborder {
+	display: flex;
+	width: 100%;
+	height: 2px;
+	background-color: #53585F;
+}
+
+.menusectionpricing {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.menupricingitem {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-align-items: center;
+	width: 30%;
+	margin-bottom: 5px;
+}
+
+h3 {
+	color: #53585F;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	letter-spacing: 0.13em;
+	line-height: 1.4em;
+}
+
+.cateringcallout {
+	margin-bottom: 15px;
+}
+
+.cateringcallout h3 {
+	font-size: 0.7em;
+}
+
+/* *** Find Us Page *** */
+
+.findtitlebackground {
+  width: 100%;
+}
+
+.findtitlebackground img {
+  width: 100%;
+}
+
+.findcontent {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.finddetails {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+	flex-direction: column;
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+
+.addresssection {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.addressdescription {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.hoursdescription {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.mapsection {
+  display: flex;
+  display: -webkit-flex;
+  width: 60%;
+}
