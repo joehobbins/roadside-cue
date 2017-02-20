@@ -5,15 +5,18 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <script type="text/javascript" src="js/modernizr-custom.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<title>Roadside 'Cue | Menu</title>
 </head>
-
+<script>
+	$(function() {
+		$("#header").load("universalheader.html");
+	});
+	</script>
 <body>
-	<!-- Start of universal header -->
-	<!-- End of universal header -->
+	<div id="header"></div>
 
 	<!-- Start of page title -->
 	<div class="menutitlebackground">
@@ -83,7 +86,7 @@
 			<div class="menusectionborder"></div>
 			<div class="menusectionpricing">
 					<div class="menupricingitem">
-						<h3>1 Slab Ribs $22.80</h3>	
+						<h3>1 Slab Ribs $22.80</h3>
 					</div>
 					<div class="menupricingitem">
 						<h3>1 lb. Meat $13.65</h3>
@@ -92,7 +95,7 @@
 						<h3>Whole Chicken $13.75</h3>
 					</div>
 					<div class="menupricingitem">
-						<h3>1/2 Slab Ribs $11.40</h3>	
+						<h3>1/2 Slab Ribs $11.40</h3>
 					</div>
 					<div class="menupricingitem">
 						<h3>1/2 lb. Meat $7.89</h3>
@@ -147,7 +150,7 @@
 			<div class="menusectionborder"></div>
 			<div class="menusectionpricing">
 					<div class="menupricingitem">
-						<h3>1/2 Pint  $1.75</h3>	
+						<h3>1/2 Pint  $1.75</h3>
 					</div>
 					<div class="menupricingitem">
 						<h3>1 Pint  $3.50</h3>
