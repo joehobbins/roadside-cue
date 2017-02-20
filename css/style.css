@@ -430,7 +430,7 @@ h3 {
   display: -webkit-flex;
   -webkit-flex-direction: column;
 	flex-direction: column;
-  width: 40%;
+  width: 25%;
   margin-top: 40px;
   margin-left: 120px;
 }
@@ -455,5 +455,9 @@ h3 {
 .mapsection {
   display: flex;
   display: -webkit-flex;
-  width: 60%;
+  width: 75%;
+}
+
+.mapsection img {
+  width: 100%;
 }
