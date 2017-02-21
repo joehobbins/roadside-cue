@@ -317,8 +317,8 @@ h5 {
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-	justify-content: center;
-	-webkit-align-items: center;
+	justify-content: center; /* ??? LOOK INTO THIS ???*/
+	-webkit-align-items: center; /* ??? LOOK INTO THIS ???*/
 }
 
 h2 {
@@ -337,8 +337,8 @@ h2 {
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-	justify-content: center;
-	-webkit-align-items: center;
+	justify-content: center; /* ??? LOOK INTO THIS ???*/
+	-webkit-align-items: center; /* ??? LOOK INTO THIS ???*/
 	margin-top: 10px;
 }
 
@@ -351,8 +351,8 @@ h2 {
 	display: -webkit-flex;
 	-webkit-flex-direction: column;
 	flex-direction: column;
-	justify-content: center;
-	-webkit-align-items: center;
+	justify-content: center; /* ??? LOOK INTO THIS ???*/
+	-webkit-align-items: center; /* ??? LOOK INTO THIS ???*/
 	width: 80%;
 	margin-bottom: 50px;
 }
@@ -459,5 +459,59 @@ h3 {
 }
 
 .mapsection img {
+  width: 100%;
+}
+
+/* *** About Page *** */
+
+.abouttitlebackground {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.abouttitlebackground img {
+  width: 100%;
+}
+
+.ourstorycontainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.ourstoryheadline {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ourstoryheadline p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.ourstoryline {
+  width: 220px;
+  background-color: #000;
+  height: 3px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ourstorytext {
+  width: 100%;
+}
+
+.ourstoryimg {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.ourstoryimg img {
   width: 100%;
 }
