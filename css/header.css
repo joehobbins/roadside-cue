@@ -249,3 +249,17 @@ h6 {
   transform: translateY(-50%) scaleY(5);
   transition: 0.5s;
 }
+
+@media only screen and (max-width: 680px) {
+  .menulogo { width: 200px; }
+  h6 { font-size: 0.6em;}
+  .orderflagbg { width: 90px;}
+  .orderflagbg img {width: 70%;}
+}
+
+@media only screen and (max-width: 550px) {
+  .menulogo { width: 160px; }
+  h6 { font-size: 0.55em;}
+  .orderflagbg { width: 70px;}
+  .orderflagbg img {width: 80%; padding-left: 20px; height: 40px;}
+}
